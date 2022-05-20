@@ -1,1 +1,1 @@
-web: ./mercure -k "$SECRET" -c '*' -p '*' -a :$PORT -D -X
+web: mercury run 0.0.0.0:$PORT
